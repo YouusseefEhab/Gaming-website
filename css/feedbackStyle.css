@@ -1,0 +1,39 @@
+.feed{
+    float: left;
+	width: 50%;
+    border: white 3px double;
+	color: white;    
+	margin-left: 25%;
+}
+
+#block{
+	margin-top: 25%;
+	margin-left: 25%;
+	width: 50%;
+	height: 50%;
+}
+
+h3{
+	width: 25%;
+	margin-left: 35%;
+	text-align: center;
+    letter-spacing: 11px;
+	border: 2px double white;
+	padding: 3%;
+}
+
+.text{
+    border:  white 2px solid ;
+	width: 50%;
+	margin-left: 25%;
+}    
+
+.sub{
+    cursor:pointer;
+	padding: 2%;
+	width: 25%;
+	height: 13%;
+	margin-top: 4%;
+	margin-left: 37.5%;
+	margin-bottom: 3%;
+}

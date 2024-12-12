@@ -1,0 +1,156 @@
+table
+{
+	width: 70%;
+	float: left;
+	margin-left: 2%;
+}
+
+th
+{
+	padding: 10px;
+	text-align: center;
+	border-bottom: 1px solid #c5c3c0;
+}
+
+td
+{
+	padding: 5px;
+	text-align: center;
+	border-bottom: 1px solid #c5c3c0;
+
+}
+
+tr
+{
+	height: 100px;
+}
+
+.rows:hover
+{
+	background-color: #3f7696;
+	
+}
+
+.nameCell
+{
+	width: 15%;
+}
+
+.nameCell:hover
+{
+	text-decoration: underline solid white;
+}
+
+.descriptionCell
+{
+	width: 50%;
+	font-size: 1em;
+}
+
+.priceCell
+{
+	width: 7%;
+	color: green;
+	font-weight: bold;
+}
+
+.developerCell
+{
+	width: 13%;
+}
+
+.photoCell
+{
+	width: 15%;
+}
+
+.photo
+{
+	height: 100%;
+	width: 100%;
+}
+
+.invisButton
+{
+	color: #c5c3c0;
+	background-color: rgba(0, 0, 0, 0);
+	border: none;
+	text-align: center;
+	cursor: pointer;
+}
+
+.tableButton
+{
+	width: 100%;
+	height: 100%;
+}
+
+#search
+{
+	float: left;
+	padding: 2%;
+	margin-left: 2%;
+	margin-bottom: 2%;
+	border-radius: 20px;
+}
+
+#layoutButtons
+{
+	float: right;
+	padding: 2%;
+	margin-right: 6%;
+	margin-bottom: 2%;
+	border-radius: 20px;	
+}
+
+#categoryBlock
+{
+	width: 20%;
+	float: right;
+	margin-right: 3%;
+	border-radius: 20px;
+	text-align: center;
+	position: sticky;
+}
+
+.categoryOption:hover
+{
+	text-decoration: underline solid white;
+}
+
+#gridContainer
+{
+	width: 68%;
+	float: left;
+	margin-left: 2%;
+	display: inline-grid;
+	grid-template-columns: 25% 25% 25% 25%;
+	gap: 2%;
+}
+
+.gridPhoto
+{
+	width: 100%;
+	height: 80%;
+}
+
+.gridName
+{
+	width: 100%;
+	height: 20%;
+}
+
+.gridItem
+{
+	width: 100%;
+	height: 100%;
+	border-radius: 25px;
+	padding-top: 6%;
+	padding-right: 3%;
+	padding-left: 3%;
+}
+
+.gridItem:hover
+{
+	background-color: #3f7696;
+}
